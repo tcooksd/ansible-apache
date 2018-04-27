@@ -1,0 +1,8 @@
+---
+
+# Debian specific vars
+
+apache_packages :
+  - apache2
+
+apache_service_name: apache2
