@@ -9,3 +9,7 @@
   roles:
     - selinux
     - tomcat
+
+  tasks:
+    - include: group_vars/tomcat-servers
+
